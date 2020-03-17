@@ -111,7 +111,7 @@ public class MainActivity extends AppCompatActivity {
                     RequestBody request_body = new MultipartBody.Builder()
                             .setType(MultipartBody.FORM)
                             .addFormDataPart("user",content_type)
-                            .addFormDataPart("name","to madarchod")
+                            .addFormDataPart("name","name")
                             .addFormDataPart("image",file_path.substring(file_path.lastIndexOf("/")+1), file_body)
                             .build();
 
